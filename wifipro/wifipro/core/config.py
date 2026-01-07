@@ -72,7 +72,7 @@ class Menu:
             f"{colors.DG}──────────────────────────{colors.NC}",
             f"{colors.W}Version  : {colors.G}{self.version}{colors.NC}",
             f"{colors.W}Engine   : {colors.C}Aircrack-ng Suite{colors.NC}",
-            f"{colors.W}Author   : {colors.P}kang-nom{colors.NC}",
+            f"{colors.W}Author   : {colors.P}kang-anom{colors.NC}",
             f"{colors.W}Codename : {colors.Y}Phantom-Scanner{colors.NC}",
             f"{colors.DG}──────────────────────────{colors.NC}"
         ]
@@ -204,7 +204,9 @@ class Menu:
                         time.sleep(2)
                     else:
                         self.display_header()
-                        self.wifi.deauth.ui_dos_menu(self.targets)
+                # Memanggil konektor start_dos agar konsisten dengan modul lain
+                # Pastikan indentasi di bawah ini sejajar dengan baris di atasnya
+                        self.wifi.deauth.start_dos(self.targets)
 
             except KeyboardInterrupt:
                 break
