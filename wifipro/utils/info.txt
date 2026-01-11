@@ -1,0 +1,4 @@
+apel:Apel adalah buah bulat yang biasanya berwarna merah atau hijau dan rasanya manis.
+python:Python adalah bahasa pemrograman yang mudah dipelajari dan sangat populer.
+matahari:Matahari adalah bintang di pusat tata surya kita yang memberikan cahaya dan panas.
+kopi:Kopi adalah minuman hasil seduhan biji kopi yang telah disangrai dan dihaluskan.
